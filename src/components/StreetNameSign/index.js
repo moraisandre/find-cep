@@ -18,6 +18,7 @@ const StreetNameSign = (props) => {
             </div>
         </div>
         :
+        props.address.cep &&
         <div className="cep-not-found">
             CEP não encontrado!
         </div>
