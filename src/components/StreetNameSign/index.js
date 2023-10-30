@@ -7,6 +7,8 @@ const StreetNameSign = (props) => {
         : '00000-000'
 
     return (
+        props.address.logradouro 
+        ?
         <div className="street-name-sign">
             <div className="logradouro">{props.address.logradouro}</div>
             <div className="bairro">{props.address.bairro}</div>
@@ -14,6 +16,10 @@ const StreetNameSign = (props) => {
                 <div className="bottom-text-detail">{props.address.cidade} - {props.address.uf}</div>
                 <div className="bottom-text-detail">{normalizeCep}</div>
             </div>
+        </div>
+        :
+        <div className="cep-not-found">
+            CEP não encontrado!
         </div>
     );
 }

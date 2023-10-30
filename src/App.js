@@ -16,7 +16,7 @@ function App() {
     // 01302907
     // 03307005     
 
-    if (cep && cep.length === 8) {
+    if (cep && cep.length === 8 && isNumber(cep)) {
       fetch(`https://viacep.com.br/ws/${cep}/json/`)
         .then(response => response.json())
         .then(data => {
@@ -30,6 +30,10 @@ function App() {
         })
 
     }
+  }
+
+  function isNumber(string){
+    return /^\d+$/.test(string);
   }
 
   return (
