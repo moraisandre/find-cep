@@ -8,6 +8,13 @@ This is a react project created to understand how to call an API. The project us
 
 You can see a live demo of this project in Vercel here: [Find CEP Demo](https://find-cep-nine.vercel.app/)
 
+### CEP examples:
+
+    01001000
+    03650010
+    01302907
+    03307005   
+
 ## Installation
 To run this project locally, you need to have:
 * Node version - 16.20.0
