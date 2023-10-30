@@ -1,8 +1,8 @@
 # Find CEP
 
-A react project created to understand how call an API.
-
 This is a react project created to understand how to call an API. The project uses the [ViaCEP API](https://viacep.com.br/) to fetch the address data throw the ZIP Code for any city in Brazil.
+
+![Find CEP screenshot](/assets/screenshot.png "Find CEP Screenshot")
 
 ## Demo
 
