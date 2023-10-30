@@ -1,0 +1,51 @@
+.street-name-sign {
+    align-items: flex-end;
+    background-color: #2f2b93;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 55px;
+    padding: 31px 0px;
+    position: relative;
+    width: 80%;
+    max-width: 1182px;
+}
+
+.street-name-sign .logradouro {
+    color: #ffffff;
+    display: flex;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 150px;
+    font-weight: 400;
+    width: 100%;
+    letter-spacing: 0;
+    line-height: normal;
+    padding-left: 40px;
+}
+
+.street-name-sign .bairro {
+    color: #ffffff;
+    display: flex;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+    width: 100%;
+    letter-spacing: 0;
+    line-height: normal;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    border-bottom: 5px solid #d2d7da;
+}
+
+.street-name-sign .sign-details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.street-name-sign .bottom-text-detail {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    padding: 20px 40px;
+}
